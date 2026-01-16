@@ -5,7 +5,7 @@ import java.util.List;
 public class WhatsAppRecords {
 
 
-    //lo que recibe el usuario
+    //lo que recibes
     public static record WhatsAppPayload(List<Entry> entry) {}
     public static record Entry(List<Change> changes) {}
     public static record Change(Value value) {}
